@@ -13,11 +13,11 @@ let comp=0;
 function scorerecorder1(){
     let ran=Math.floor(Math.random()*3);
     if(ran==0){
-        para.innerText="computer chosen rock";
+        para.innerText="computer chose rock";
         paradiv.style.backgroundColor="red";
     }
     else if(ran==1){
-        para.innerText="computer chosen paper";
+        para.innerText="computer chose paper";
         paradiv.style.backgroundColor="green";
         comp=comp+1;
         score1.innerText=comp;
@@ -27,23 +27,23 @@ function scorerecorder1(){
         console.log(x)
         score2.innerText=x;
         paradiv.style.backgroundColor="green";
-        para.innerText="computer chosen scissor";
+        para.innerText="computer chose scissor";
     }
 }
 function scorerecorder2(){
     let ran=Math.floor(Math.random()*3);
     if(ran==0){
-        para.innerText="computer chosen rock";
+        para.innerText="computer chose rock";
         x=x+1;
         score2.innerText=x;
         paradiv.style.backgroundColor="green";
     }
     else if(ran==1){
-        para.innerText="computer chosen paper";
+        para.innerText="computer chose paper";
         paradiv.style.backgroundColor="red";
     }
     else if(ran==2){
-        para.innerText="computer chosen scissor";
+        para.innerText="computer chose scissor";
         comp=comp+1;
         score1.innerText=comp;
         paradiv.style.backgroundColor="green";
@@ -53,19 +53,19 @@ function scorerecorder2(){
 function scorerecorder3(){
     let ran=Math.floor(Math.random()*3);
     if(ran==0){
-        para.innerText="computer chosen rock";
+        para.innerText="computer chose rock";
         comp=comp+1;
         score1.innerText=comp;
         paradiv.style.backgroundColor="green";
     }
     else if(ran==1){
-        para.innerText="computer chosen paper";
+        para.innerText="computer chose paper";
         x=x+1;
         score2.innerText=x;
         paradiv.style.backgroundColor="green";
     }
     else if(ran==2){
-        para.innerText="computer chosen scissor";
+        para.innerText="computer chose scissor";
         paradiv.style.backgroundColor="red";
     }
 }
